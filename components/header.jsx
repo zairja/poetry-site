@@ -5,9 +5,7 @@ import githubLogo from 'public/images/github-mark-white.svg';
 
 const navItems = [
     { linkText: 'Home', href: '/' },
-    { linkText: 'Revalidation', href: '/revalidation' },
-    { linkText: 'Image CDN', href: '/image-cdn' },
-    { linkText: 'Classics', href: '/classics' }
+    { linkText: 'Revalidation', href: '/revalidation' }
 ];
 
 export function Header() {
@@ -32,7 +30,7 @@ export function Header() {
             )}
             <div className="flex-grow justify-end hidden lg:flex lg:mr-1">
                 <Link
-                    href="https://github.com/netlify-templates/next-platform-starter"
+                    href="https://github.com/zairja/zairjame"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
