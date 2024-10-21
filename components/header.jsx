@@ -5,7 +5,7 @@ import githubLogo from 'public/images/github-mark-white.svg';
 
 const navItems = [
     { linkText: 'Home', href: '/' },
-    { linkText: 'Revalidation', href: '/revalidation' }
+    { linkText: 'Poems', href: '/poems/lottery' }
 ];
 
 export function Header() {
