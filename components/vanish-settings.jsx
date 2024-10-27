@@ -33,7 +33,7 @@ const VanishSettings = () => {
                 <p className="vanish-demo word">They lay. They rotted. They turned</p>
                 <p className="vanish-demo word">Around occasionally.</p>
                 <p className="vanish-demo word">Bits of flesh dropped off them from</p>
-                <p className="vanish-demo word">Time to time. And sank into the pool's mire.</p>
+                <p className="vanish-demo word">Time to time. And sank into the pool&apos;s mire.</p>
                 <p className="vanish-demo word">They also smelt a great deal.</p>
               </div>
             </li>
