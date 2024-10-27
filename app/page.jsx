@@ -4,8 +4,8 @@ export default function Page() {
     return (
         <main className="flex flex-col gap-8 sm:gap-16">
             <section className="flex flex-col items-start gap-3 sm:gap-4">
-                <h1 className="mb-0">These poems won't last</h1>
-                <p className="text-lg">You choose how quickly they're gone.</p>
+                <h1 className="mb-0">These poems won&apos;t last</h1>
+                <p className="text-lg">You choose how quickly they&apos;re gone.</p>
                 <Link
                     href="/poems/"
                 >
