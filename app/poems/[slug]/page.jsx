@@ -32,10 +32,10 @@ export default async function Page({ params }) {
           const containsHtmlTags = /<\/?[a-z][\s\S]*>/i.test(cleanLine);
 
           if (containsHtmlTags) {
-            return <div key={index} dangerouslySetInnerHTML={{ __html: cleanLine }} />;
+            return <div key={index} className="poem line" dangerouslySetInnerHTML={{ __html: cleanLine }} />;
           } else {
             const lineWithRestoredCharacters = cleanLine.replace(/&amp;/g, '&');
-            return <p key={index} className="poetry-line">{lineWithRestoredCharacters}</p>;
+            return <p key={index} className="poetry-line poem line">{lineWithRestoredCharacters}</p>;
           }
         })}
 
