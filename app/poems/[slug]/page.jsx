@@ -1,6 +1,8 @@
 import { promises as fs } from 'fs';
 import path from 'path';
 import sanitizeHtml from 'sanitize-html';
+import VanishSettings from '/components/vanish-settings';
+import Link from 'next/link';
 
 export const dynamic = 'force-dynamic'; // prevent Next.js from caching this handler's output
 
@@ -36,6 +38,14 @@ export default async function Page({ params }) {
             return <p key={index} className="poetry-line">{lineWithRestoredCharacters}</p>;
           }
         })}
+
+        <div className="my-10">
+          <Link href="/poems">
+            Go back (to the poems)
+          </Link>
+        </div>
+
+        <VanishSettings />
       </>
     );
 
